@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexandr Belov</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="scripts.js" defer></script>
+</head>
+
+<body>
+    <header class="header">
+        <h2 class="headerIcon" id="headerIcon">А</h2>
+        <nav class="navHead">
+            <ul>
+                <li><a href="#aboutPage">О себе</a></li>
+                <li><a href="#projects">Проекты</a></li>
+                <li><a href="#contacts">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="mainPage">
+            <div class="mainText">
+                <div class="title">
+                    <div class="firstText">
+                        <h1 id="myName">Александр Белов</h1>
+                        <p id="position">веб-разработчик</p>
+                    </div>
+                    <hr>
+                    <div class="secondText">
+                        <p id="someAboutMe">Занимаюсь фулл-стэк разработкой. <br>Получаю среднее образование по направлению <br>
+                            « Компьютерные системы и программирование ». <br>Веду свой блог.</p>
+                    </div>
+                </div>
+            </div>
+            <img src="./data/myPhoto.png" alt="Моё фото" class="mainImage">
+        </section>
+        <section class="aboutMe">
+            <div class="aboutPage" id="aboutPage">
+                <h2 id="about-me">О себе</h2>
+                <div class="aboutText">
+                    <p id="aboutMeText">Учусь в колледже по направлению “Компьютерные системы и программирование”. Создаю прикольные
+                        сайты. <br>
+                        Занимаюсь спортом, веду блог. <br>
+                        <br>
+                        Моя история началась еще в 10 лет, тогда я начал изучать питон, мне понравилось и я стал изучать
+                        IT. Надолго в питоне я не задержался, начал изучать HTML, после чего забросил обучение на
+                        несколько лет.
+                        И лишь пару лет назад, я решил снова начать изучать эту сферу, но уже по взрослому. Я вспомнил,
+                        что когда то делал сайты на HTML и мне захотелось дальше развиваться в этой сфере. <br>
+                        Сейчас я работаю с JavaScript, а за плечами лежит опыт работы с фремворком Vue и еще парочкой
+                        технологий.
+                        <br>
+                        <br>
+                        Веду блог про свою жизнь. Делюсь своим опытом и опытом других людей. Рассказываю, про новинки в
+                        мире айти, даю советы по учёбе и многое другое!
+                    </p>
+                </div>
+                <hr>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <h2 id="my-projects">Проекты</h2>
+            <div class="habbitsTracker">
+                <h4 id="tracker-habbits">Трекер привычек</h4>
+                <div class="imageTracker">
+                    <img src="./data/tracerHabbits1.png" alt="Главная страница трекера" class="drag-none" id="tracerHabbits1">
+                    <img src="./data/tracerHabbits2.png" alt="Добавление новой привычки" class="drag-none" id="tracerHabbits2">
+                </div>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <h2 id="my-contacts">Контакты</h2>
+            <form class="form" id="contactForm">
+                <input type="email" placeholder="Введите электронную почту" id="email">
+                <textarea name="message" id="message" placeholder="Введите сообщение"></textarea>
+                <button class="button" id="buttonSubmit" type="submit">Отправить</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <nav class="userselect-none">
+            <ul class="footList">
+                <li><a href="https://www.youtube.com/@Aleks15B" class="drag-none" target="_blank">
+                    <img src="./data/youtube.png" alt="YouTube" class="drag-none">
+                </a></li>
+                <li><a href="https://www.instagram.com/belovv15" class="drag-none" target="_blank">
+                    <img src="./data/instagram.png" alt="Instagram" class="drag-none">
+                </a></li>
+                <li><a href="https://github.com/AleksandrBel15" class="drag-none" target="_blank">
+                    <img src="./data/github-mark-white.png" alt="GitHub" class="drag-none">
+                </a></li>
+                <li><a href="https://t.me/aleks_belovv" class="drag-none" target="_blank">
+                    <img src="./data/tg.png" alt="Telegram" class="drag-none">
+                </a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+
+</html>
